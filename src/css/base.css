@@ -15,10 +15,10 @@
   font-family: 'Gilroy';
   src: url('Gilroy-Medium.eot');
   src: local('Gilroy Medium'), local('Gilroy-Medium'),
-    url('../fonts/Gilroy-Medium?#iefix') format('embedded-opentype'),
-    url('../fonts/Gilroy-Medium.woff2') format('woff2'),
-    url('../fonts/Gilroy-Medium.woff') format('woff'),
-    url('../fonts/Gilroy-Medium.ttf') format('truetype');
+    url('./fonts/Gilroy-Medium?#iefix') format('embedded-opentype'),
+    url('./fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('./fonts/Gilroy-Medium.woff') format('woff'),
+    url('./fonts/Gilroy-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
@@ -27,10 +27,10 @@
   font-family: 'Gilroy';
   src: url('Gilroy-Bold.eot');
   src: local('Gilroy Bold'), local('Gilroy-Bold'),
-    url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Gilroy-Bold.woff2') format('woff2'),
-    url('../fonts/Gilroy-Bold.woff') format('woff'),
-    url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    url('./fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gilroy-Bold.woff2') format('woff2'),
+    url('./fonts/Gilroy-Bold.woff') format('woff'),
+    url('./fonts/Gilroy-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
