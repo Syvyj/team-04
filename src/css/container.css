@@ -1,19 +1,38 @@
-/* Styles for Mobile devices */
-.container {
-  min-width: 320px;
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 0 16px;
+/* Mobile devices */
+@media only screen and (max-width: 375px) {
+  .container {
+    min-width: 320px;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: #fbfbfb;
+  }
+  p {
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+  }
 }
-/* Styles for Tablet devices */
+/* Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
 }
-/* Styles for Desktop devices */
-@media only screen and (min-width: 1200px) {
+/* Desktop devices */
+@media only screen and (min-width: 1280px) {
   .container {
-    max-width: 1200px;
+    max-width: 1280px;
   }
 }
