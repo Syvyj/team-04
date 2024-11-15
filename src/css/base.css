@@ -76,3 +76,37 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+/* Buttons */
+.btn-catalog {
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background: #3350e9;
+  border: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.btn-catalog:hover {
+  background: #1f3cd4;
+}
+.btn-contact {
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background: transparent;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.btn-contact:hover {
+  background: #fbfbfb;
+  color: #0c0c0c;
+}
