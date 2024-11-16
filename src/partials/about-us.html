@@ -1,3 +1,48 @@
 <section class="about-us" id="about-us">
-  <div class="container"></div>
+  <div class="container content">
+    <div class="about-us_content">
+      <h2 class="about-us_title">About Us</h2>
+      <div class="about-description">
+        <p class="about-us_text">
+          Welcome to our premium watch collection, where luxury and style meet
+          functionality and precision. Our selection of timepieces embodies the
+          very best in Swiss craftsmanship and engineering, ensuring that you'll
+          always have a reliable and stylish accessory on your wrist.
+        </p>
+        <p class="about-us_text">
+          At our premium watch collection, we believe that a watch is more than
+          just a timekeeping device – it's a statement piece that reflects your
+          personality and style. So why settle for anything less than the best?
+        </p>
+      </div>
+      <button class="btn-catalog">
+        <a href="#catalog">View catalog</a>
+      </button>
+    </div>
+    <div class="about-us_photo">
+      <picture>
+        <!-- Desktop version -->
+        <source
+          srcset="./img/about-us.jpg 1x, ./img/about-us-2x.jpg 2x"
+          media="(min-width: 1158px)"
+        />
+        <!-- Tablet version -->
+        <source
+          srcset="./img/tab/about-us.jpg 1x, ./img/tab/about-us-2x.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <!-- Mobile version -->
+        <source
+          srcset="./img/mob/about-us.jpg 1x, ./img/mob/about-us-2x.jpg 2x"
+          media="(max-width: 767px)"
+        />
+        <!-- Default fallback image -->
+        <img
+          class="about-us_img"
+          src="../img/mob/about-us.jpg"
+          alt="portfolio picture"
+        />
+      </picture>
+    </div>
+  </div>
 </section>
