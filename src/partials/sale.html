@@ -1,3 +1,44 @@
 <section class="sale" id="sale">
-  <div class="container"></div>
+  <div class="container">
+    <h2 class="sale-title">Sale</h2>
+    <div class="sale-list">
+      <ul class="sale-ul">
+        <li class="sale-item">
+          <picture>
+            <!-- Mobile version -->
+            <source
+              srcset="../img/mob/ 1x, ./images/portfolio-img-mob@2x.jpg 2x"
+              media="(max-width: 375px)"
+            />
+
+            <!-- Tablet version -->
+            <source
+              srcset="
+                ./images/portfolio-img-tab.jpg    1x,
+                ./images/portfolio-img-tab@2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+
+            <!-- Desktop version -->
+            <source
+              srcset="
+                ./images/portfolio-img-desk.jpg    1x,
+                ./images/portfolio-img-desk@2x.jpg 2x
+              "
+              media="(min-width: 1280px)"
+            />
+
+            <!-- Default fallback image -->
+            <img src="./images/portfolio-img-mob.jpg" alt="portfolio picture" />
+          </picture>
+        </li>
+        <li class="sale-item"></li>
+        <li class="sale-item"></li>
+        <li class="sale-item"></li>
+      </ul>
+    </div>
+    <div class="sale-content-picture"></div>
+    <div class="sale-text-block"></div>
+  </div>
 </section>
