@@ -1,10 +1,5 @@
-.hero-button {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 129%;
-  letter-spacing: -0.02em;
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
-  color: var(--main);
-}
+/*.hero {
+  padding: 60px 20px 0 20px;
+  width: 100%;
+  max-height: 732px;
+}*/
