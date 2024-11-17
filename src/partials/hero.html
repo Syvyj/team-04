@@ -1,24 +1,49 @@
 <section class="hero" id="hero">
   <div class="container hero">
-    <div class="">
-      <h1 class="hero-title-text">
+    <div class="hero-text">
+      <h1 class="hero-text-title">
         Welcome to our <span class="hero-title-word">collection</span> of
         premium watches
       </h1>
-      <p class="hero-text">
+      <p class="hero-text-container">
         Our watches are not just timepieces, but also an expression of your
         personality and lifestyle. From classic designs to modern ones, we have
         a watch to suit every taste and occasion.
       </p>
     </div>
     <div class="hero-team-ref">
-      <ul class="hero-list">
-        <li><img src="../img/Victoria.png" alt="phoro_Victoria" /></li>
-        <li><img src="../img/John.png" alt="photo_John" /></li>
-        <li><img src="../img/Anastasia.png" alt="photo_Anastacia" /></li>
-      </ul>
-      <a href="../index.html#footer">Scroll down</a>
+      <div class="hero-list-container">
+        <img
+          src="../img/Victoria.png"
+          alt="phoro_Victoria"
+          class="hero-list-image photo-victoria"
+        />
+        <img
+          src="../img/John.png"
+          alt="photo_John"
+          class="hero-list-image photo-john"
+        />
+        <img
+          src="../img/Anastasia.png"
+          alt="photo_Anastacia"
+          class="hero-list-image photo-anastacia"
+        />
+      </div>
+      <div class="hero-ref-cotainer">
+        <a href="../index.html#footer">Scroll down</a>
+      </div>
     </div>
-    <img src="../img/hero.jpg" alt="hero-image" class="hero-img" />
+    <picture class="hero-img">
+      <source
+        srcset="../img/hero.jpg 1x, ../img/hero.jpg 2x"
+        media="(min-width: 1280px)" />
+      <source
+        srcset="../img/tab/hero.jpg 1x, ../img/tab/hero.jpg 2x"
+        media="(min-width: 768px)" />
+      <source
+        srcset="../img/mob/hero.jpg 1x, ../img/mob/hero.jpg 2x"
+        media="(max-width: 767px)" />
+      <img src="../img/hero.jpg" alt="hero-image" class="hero-img-spare"
+    /></picture>
   </div>
 </section>

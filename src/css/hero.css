@@ -1,5 +1,82 @@
-/*.hero {
-  padding: 60px 20px 0 20px;
+/*mobile*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.hero {
+  padding: 60px 20px 0px 20px;
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 28px;
+  max-width: 375px;
+}
+.hero-text-title {
+  max-width: 100%;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 95%;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+.hero-text-title .hero-title-word {
+  color: #3350e9;
+}
+.hero-text-container {
+  max-width: 100%;
+}
+.hero-team-ref {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hero-list-container {
+  display: flex;
+  align-items: center;
+  width: 108px;
+  height: 44px;
+}
+.hero-list-image {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: -8px;
+}
+.hero-list-image:last-child {
+  margin-right: 0;
+}
+.hero-list img {
   width: 100%;
-  max-height: 732px;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-ref-cotainer {
+  align-self: flex-end;
+}
+/*.photo-victoria {
+}
+.photo-john {
+  z-index: 2;
+  opacity: 0.85;
+}
+.photo-anastacia {
+  z-index: 3;
+  opacity: 0.85;
 }*/
+.hero-img {
+}
+.hero-img-spare {
+}
+
+/*tablet*/
+@media screen and (min-width: 768px) {
+}
+
+/*pc*/
+@media screen and (min-width: 1280px) {
+}

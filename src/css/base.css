@@ -3,10 +3,10 @@
   font-family: 'Gilroy';
   src: url('Gilroy-Regular.eot');
   src: local('Gilroy Regular'), local('Gilroy-Regular'),
-    url('../fonts/Gilroy-Regular?#iefix') format('embedded-opentype'),
-    url('../fonts/Gilroy-Regular.woff2') format('woff2'),
-    url('../fonts/Gilroy-Regular.woff') format('woff'),
-    url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    url('/fonts/Gilroy-Regular?#iefix') format('embedded-opentype'),
+    url('/fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('/fonts/Gilroy-Regular.woff') format('woff'),
+    url('/fonts/Gilroy-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,10 +15,10 @@
   font-family: 'Gilroy';
   src: url('Gilroy-Medium.eot');
   src: local('Gilroy Medium'), local('Gilroy-Medium'),
-    url('./fonts/Gilroy-Medium?#iefix') format('embedded-opentype'),
-    url('./fonts/Gilroy-Medium.woff2') format('woff2'),
-    url('./fonts/Gilroy-Medium.woff') format('woff'),
-    url('./fonts/Gilroy-Medium.ttf') format('truetype');
+    url('/fonts/Gilroy-Medium?#iefix') format('embedded-opentype'),
+    url('/fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('/fonts/Gilroy-Medium.woff') format('woff'),
+    url('/fonts/Gilroy-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
@@ -27,10 +27,10 @@
   font-family: 'Gilroy';
   src: url('Gilroy-Bold.eot');
   src: local('Gilroy Bold'), local('Gilroy-Bold'),
-    url('./fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/Gilroy-Bold.woff2') format('woff2'),
-    url('./fonts/Gilroy-Bold.woff') format('woff'),
-    url('./fonts/Gilroy-Bold.ttf') format('truetype');
+    url('/fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/Gilroy-Bold.woff2') format('woff2'),
+    url('/fonts/Gilroy-Bold.woff') format('woff'),
+    url('/fonts/Gilroy-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -39,10 +39,10 @@
   font-family: 'Gilroy';
   src: url('Gilroy-Semibold.eot');
   src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
-    url('./fonts/Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/Gilroy-Semibold.woff2') format('woff2'),
-    url('./fonts/Gilroy-Semibold.woff') format('woff'),
-    url('./fonts/Gilroy-Semibold.ttf') format('truetype');
+    url('/fonts/Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/Gilroy-Semibold.woff2') format('woff2'),
+    url('/fonts/Gilroy-Semibold.woff') format('woff'),
+    url('/fonts/Gilroy-Semibold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
@@ -83,6 +83,7 @@ main:has(.back-link) {
   height: 48px;
   background: #3350e9;
   border: 0;
+  font-family: 'GILROY', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
@@ -95,10 +96,12 @@ main:has(.back-link) {
 }
 .btn-contact {
   border: 1px solid rgba(251, 251, 251, 0.15);
+
   border-radius: 16px;
   width: 160px;
   height: 48px;
   background: transparent;
+  font-family: 'GILROY', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
