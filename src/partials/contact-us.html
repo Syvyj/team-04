@@ -1,3 +1,73 @@
 <section class="contact-us" id="contact-us">
-  <div class="container"></div>
+  <div class="container">
+    <h2 class="contact-us-title">Contact Us</h2>
+    <div class="contact-us-wrapper">
+      <div class="form-container">
+        <p class="form-title">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="contact-us-form">
+          <div class="input-box">
+            <input
+              type="text"
+              name="user-name"
+              class="form-input"
+              placeholder="Name"
+            />
+
+            <input
+              type="email"
+              name="user-email"
+              class="form-input"
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            />
+
+            <input
+              type="tel"
+              name="user-tel"
+              class="form-input"
+              required
+              value="+380-XX-XXX-XX-XX"
+              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+            />
+
+            <textarea
+              name="user-comment"
+              class="form-textarea"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+
+          <button class="form-button" type="submit">Send</button>
+        </form>
+      </div>
+
+      <picture class="contact-us-img">
+        <source
+          srcset="/img/contact-us.jpg 1x, /img/contact-us-2x.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+
+        <source
+          srcset="
+            /img/tab/contact-us-tab.jpg    1x,
+            /img/tab/contact-us-tab-2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+
+        <source
+          srcset="
+            /img/mob/contact-us-mob.jpg    1x,
+            /img/mob/contact-us-mob-2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+
+        <img src="/img/contact-us.jpg" alt="Wristwatch on stone" />
+      </picture>
+    </div>
+  </div>
 </section>
