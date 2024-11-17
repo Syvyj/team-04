@@ -1,4 +1,4 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -27,8 +27,7 @@
     font-size: 32px;
     line-height: 100%;
   }
-} */
-
+}
 .container {
   min-width: 320px;
   max-width: 375px;
@@ -117,11 +116,13 @@
   .about-us_content {
     border-radius: 50px;
     max-width: 704px;
+    /* height: ; */
     padding: 80px 60px;
     margin-bottom: 40px;
   }
   .about-us_title {
     font-size: 48px;
+    padding-bottom: 40px;
   }
   .about-us_text {
     font-size: 16px;
@@ -146,19 +147,18 @@
     align-items: center;
     gap: 40px;
     padding: 100px 65px;
-    height: 532px;
   }
   .about-us_content {
-    max-width: 580px;
-    max-height: 532px;
+    width: 580px;
+    height: 532px;
     margin-bottom: 0px;
   }
   .about-us_photo {
     margin-bottom: none;
-    /* height: 100%; */
+    height: 100%;
   }
   .about-us_img {
-    /* width: 100%; */
+    width: 100%;
     max-height: 532px;
   }
 }
