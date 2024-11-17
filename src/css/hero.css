@@ -4,14 +4,22 @@
 *::after {
   box-sizing: border-box;
 }
-
 .hero {
-  padding: 60px 20px 0px 20px;
+  padding-top: 60px;
+}
+.hero-content {
   max-width: 375px;
   display: flex;
   flex-direction: column;
-  row-gap: 28px;
+}
+.hero-container-content {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.hero-text {
   max-width: 375px;
+  margin-bottom: 28px;
 }
 .hero-text-title {
   max-width: 100%;
@@ -27,12 +35,18 @@
 }
 .hero-text-container {
   max-width: 100%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
 }
 .hero-team-ref {
   max-width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 28px;
 }
 .hero-list-container {
   display: flex;
@@ -55,28 +69,96 @@
   height: 100%;
   object-fit: cover;
 }
-.hero-ref-cotainer {
+.hero-ref-container {
   align-self: flex-end;
 }
-/*.photo-victoria {
+.hero-ref-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.photo-john {
-  z-index: 2;
-  opacity: 0.85;
+.hero-ref-item:focus,
+.hero-ref-item:hover {
+  color: #3350e9;
 }
-.photo-anastacia {
-  z-index: 3;
-  opacity: 0.85;
-}*/
 .hero-img {
+  width: 100%;
+  overflow: auto;
+  display: block;
 }
-.hero-img-spare {
+
+.hero-img-content {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /*tablet*/
 @media screen and (min-width: 768px) {
+  .hero-content {
+    max-width: 768px;
+  }
+  .hero-container-content {
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+  }
+  .hero-text {
+    max-width: 557px;
+  }
+
+  .hero-text-title {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 0.86;
+  }
+  .hero-text-container {
+    width: 480px;
+    font-size: 16px;
+    line-height: 1.29;
+  }
+  .hero-team-ref {
+    flex-direction: column;
+  }
+  .hero-list-container {
+    width: 136px;
+    height: 60px;
+  }
+  .hero-list-image {
+    width: 56px;
+    height: 56px;
+  }
+  .hero-ref-item {
+    font-size: 20px;
+    line-height: 1;
+  }
 }
 
 /*pc*/
 @media screen and (min-width: 1280px) {
+  .hero-content {
+    max-width: 1280px;
+  }
+  .hero-container-content {
+    justify-content: space-between;
+  }
+  .hero-text {
+    max-width: 597px;
+  }
+  .hero-text-title {
+    font-size: 72px;
+    line-height: 0.87;
+  }
+  .hero-list-container {
+    width: 146px;
+    height: 60px;
+  }
+  .hero-list-image {
+    width: 60px;
+    height: 60px;
+  }
 }
