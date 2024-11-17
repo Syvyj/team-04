@@ -83,6 +83,7 @@ main:has(.back-link) {
   height: 48px;
   background: #3350e9;
   border: 0;
+  font-family: 'GILROY', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
@@ -95,10 +96,12 @@ main:has(.back-link) {
 }
 .btn-contact {
   border: 1px solid rgba(251, 251, 251, 0.15);
+
   border-radius: 16px;
   width: 160px;
   height: 48px;
   background: transparent;
+  font-family: 'GILROY', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
@@ -109,4 +112,13 @@ main:has(.back-link) {
 .btn-contact:hover {
   background: #fbfbfb;
   color: #0c0c0c;
+}
+
+/* Forms, inputs */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: 'GILROY', sans-serif;
 }
