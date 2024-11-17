@@ -1,32 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-}
-
-@media only screen and (max-width: 375px) {
-  .container {
-    min-width: 320px;
-    max-width: 375px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  p {
-    font-size: 14px;
-    line-height: 129%;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.7);
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 100%;
-  }
 }
 .container {
   min-width: 320px;
@@ -35,21 +10,20 @@
   padding: 0 20px;
   background: #fbfbfb;
 }
+
 .about-us {
   display: flex;
   flex-direction: column;
   font-family: 'Gilroy', sans-serif;
   padding: 60px 0;
 }
-.about-us_content {
+.about-us-content {
   background-color: #f3f3f3;
   border-radius: 30px;
-  max-width: 375px;
-  min-width: 320px;
   padding: 40px 20px;
   margin-bottom: 20px;
 }
-.about-us_title {
+.about-us-title {
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
@@ -57,7 +31,7 @@
   color: #0c0c0c;
   padding-bottom: 40px;
 }
-.about-us_text {
+.about-us-text {
   font-size: 14px;
 }
 .about-description p:first-of-type {
@@ -66,7 +40,7 @@
 .about-description p:last-of-type {
   padding-bottom: 40px;
 }
-.about-us_text {
+.about-us-text {
   font-weight: 500;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -100,7 +74,7 @@
   background-color: #1f3cd4;
 }
 
-.about-us_img {
+.about-us-img {
   border-radius: 30px;
 }
 
@@ -113,25 +87,25 @@
   .about-us {
     padding: 80px 0;
   }
-  .about-us_content {
+  .about-us-content {
     border-radius: 50px;
     max-width: 704px;
     /* height: ; */
     padding: 80px 60px;
     margin-bottom: 40px;
   }
-  .about-us_title {
+  .about-us-title {
     font-size: 48px;
     padding-bottom: 40px;
   }
-  .about-us_text {
+  .about-us-text {
     font-size: 16px;
   }
   .about-description p:last-of-type {
     padding-bottom: 60px;
   }
 
-  .about-us_img {
+  .about-us-img {
     border-radius: 50px;
   }
 }
@@ -148,16 +122,16 @@
     gap: 40px;
     padding: 100px 65px;
   }
-  .about-us_content {
+  .about-us-content {
     width: 580px;
     height: 532px;
     margin-bottom: 0px;
   }
-  .about-us_photo {
+  .about-us-photo {
     margin-bottom: none;
     height: 100%;
   }
-  .about-us_img {
+  .about-us-img {
     width: 100%;
     max-height: 532px;
   }
