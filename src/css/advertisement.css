@@ -1,4 +1,4 @@
-.advert {
+.advertisement {
     background-color: #0c0c0c;
     background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(/img/mob/advert.jpg);
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
 @media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
-    .advert {
+    .advertisement {
         background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(/img/mob/advert-2x.jpg);
     }
 }
@@ -70,13 +70,13 @@
 }
 
 @media (min-width: 320px) and (max-width: 374px) {
-    .advert {
+    .advertisement {
         max-width: 100%;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .advert {
+    .advertisement {
         background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(/img/tab/advert.jpg);
         max-width: 704px;
     }
@@ -84,7 +84,7 @@
     @media screen and (min-resolution: 2dppx),
     (min-resolution: 192dpi),
     (-webkit-min-device-pixel-ratio: 2) {
-        .advert {
+        .advertisement {
             background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(/img/tab/advert-2x.jpg);
         }
     }
@@ -102,7 +102,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .advert {
+    .advertisement {
         background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(/img/advert.jpg);
         max-width: 1150px;
     }
@@ -110,7 +110,7 @@
     @media screen and (min-resolution: 2dppx),
     (min-resolution: 192dpi),
     (-webkit-min-device-pixel-ratio: 2) {
-        .advert {
+        .advertisement {
             background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(/img/advert-2x.jpg);
         }
     }
