@@ -7,12 +7,14 @@
     padding: 0 20px;
     background: #fbfbfb;
   }
+
   p {
     font-size: 14px;
     line-height: 129%;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
   }
+
   h1,
   h2,
   h3,
@@ -24,12 +26,14 @@
     line-height: 100%;
   }
 }
+
 /* Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
 }
+
 /* Desktop devices */
 @media only screen and (min-width: 1280px) {
   .container {
