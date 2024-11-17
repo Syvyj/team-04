@@ -169,6 +169,12 @@ justify-content: space-between;
 
 .policy-items {
     margin: 0;
+    font-family: "Gilroy", sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 1.4;
+        letter-spacing: -0.02em;
+        color: rgba(251, 251, 251, 0.5);
 }
 
 @media (min-width: 768px) {
