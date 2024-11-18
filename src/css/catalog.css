@@ -176,7 +176,7 @@ background: #1f3cd4;
     }
 
     .catalog-item {
-        flex-basis: calc(( 100% - 46px ) / 3);
+        width: calc(( 100% - 46px ) / 3);
     }
 
                       
