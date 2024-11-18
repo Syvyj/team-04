@@ -4,13 +4,12 @@
 *::after {
   box-sizing: border-box;
 }
-.hero {
-  padding-top: 60px;
-}
+
 .hero-content {
+  min-width: 320px;
   max-width: 375px;
-  display: flex;
-  flex-direction: column;
+  margin: 0 auto;
+  padding: 60px 20px 0;
 }
 .hero-container-content {
   max-width: 100%;
@@ -101,6 +100,7 @@
 @media screen and (min-width: 768px) {
   .hero-content {
     max-width: 768px;
+    padding: 80px 32px 0;
   }
   .hero-container-content {
     display: flex;
@@ -142,6 +142,7 @@
 @media screen and (min-width: 1280px) {
   .hero-content {
     max-width: 1280px;
+    padding: 80px 65px 0;
   }
   .hero-container-content {
     justify-content: space-between;
