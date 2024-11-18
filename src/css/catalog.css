@@ -9,6 +9,7 @@ img {
 
 .catalog-container {
   min-width: 280px;
+  padding: 0 20px;
 }
 
 .catalog-head {

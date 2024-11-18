@@ -10,6 +10,10 @@
   /* padding: 0 20px; */
 }
 
+.content {
+  padding: 0 20px;
+}
+
 .about-us {
   display: flex;
   flex-direction: column;
@@ -81,6 +85,8 @@
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+  .content {
     padding: 0 32px;
   }
   .about-us {
