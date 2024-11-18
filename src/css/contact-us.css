@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-.container {
-    padding: 30px 20px;
+.contact-us-container {
+    padding: 30px 20px 60px;
     margin: 0 auto;
   }
 
@@ -112,10 +112,10 @@
 
 @media screen and (min-width: 768px) {
 
-
-    .container {
-        padding: 40px 32px;
-      }
+  
+.contact-us-container {
+  padding: 40px 32px 80px;
+}
 
   .contact-us-title {
     font-size: 48px;
@@ -174,9 +174,9 @@
 @media screen and (min-width: 1280px) {
 
 
-    .container {
-        padding: 50px 65px;
-      }
+  .contact-us-container {
+    padding: 50px 65px 100px;
+  }
 
   .form-container {
     max-width: 580px;
