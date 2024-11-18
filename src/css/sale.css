@@ -1,15 +1,245 @@
-.sale>.container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 24px;
+.sale-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .sale-title {
-    font-weight: 600;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.sale-item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  width: 80px;
+  height: 80px;
+  background: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sale-content-picture {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 335px;
+  height: 385px;
+  background: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sale-ul {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding-bottom: 20px;
+}
+
+.sale-text-block {
+  border-radius: 30px;
+  width: 335px;
+  height: 561px;
+  background: #3350e9;
+  padding: 48px 28px;
+  margin-top: 20px;
+}
+
+.sale-text-block-title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: 279px;
+  height: 84px;
+}
+
+.block-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.product-tag {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-price {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.new-price {
+  border-radius: 8px;
+  width: 68px;
+  height: 32px;
+  background: rgba(251, 251, 251, 0.1);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.old-price {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8px;
+}
+
+.sale-paragraph {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+  padding-top: 28px;
+}
+
+.sale-last-block {
+  padding-top: 28px;
+}
+
+.sale-ul-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 8px;
+  column-gap: 8px;
+}
+
+.sale-li-block {
+  font-family: 'Gilroy', sans-serif;
+  display: inline-block;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  background: transparent;
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+  .sale-title {
+    font-size: 48px;
+    line-height: 0.92;
+  }
+
+  .sale-item {
+    width: 132px;
+    height: 132px;
+  }
+
+  .sale-content-picture {
+    width: 552px;
+    height: 558px;
+  }
+
+  .sale-photo-block {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sale-ul {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    gap: 10px;
+  }
+
+  .sale-text-block {
+    min-width: 704px;
+    min-height: 518px;
+    padding: 60px;
+    margin-top: 0px;
+  }
+
+  .block-title {
     font-size: 32px;
+    line-height: 1.13;
+    min-width: 456px;
+  }
+
+  .sale-price {
+    padding-top: 40px;
+  }
+
+  .new-price {
+    width: 78px;
+    height: 32px;
+    font-size: 20px;
     line-height: 1;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
+  }
+
+  .sale-paragraph {
+    font-size: 16px;
+    line-height: 1.25;
+    padding-top: 30px;
+  }
+
+  .sale-last-block {
+    padding-top: 40px;
+    width: 398px;
+    height: 76px;
+  }
+
+  .sale-li-block {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    font-size: 14px;
+    line-height: 1.29;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .sale-container {
+    padding: 100px 65px;
+  }
+  .sale-content-picture {
+    width: 428px;
+    height: 558px;
+  }
+
+  .sale-whole-block {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .block-title {
+    min-width: 389px;
+  }
+
+  .sale-text-block {
+    margin-left: 40px;
+    min-width: 530px;
+    min-height: 558px;
+  }
 }

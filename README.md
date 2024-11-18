@@ -8,3 +8,4 @@
   ТЗ: https://qrcd.org/7OHA
 
   Макет: https://qrcd.org/7OHF
+ 
