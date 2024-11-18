@@ -1,21 +1,10 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-.contact-us-container {
-    padding: 30px 20px 60px;
-    margin: 0 auto;
-  }
-
-
 .contact-us-title {
+  font-size: 32px;
   margin-bottom: 24px;
 }
 
 .form-container {
- max-width: 335px;
+  max-width: 335px;
   height: 512px;
   border-radius: 30px;
   padding: 48px 28px;
@@ -55,10 +44,10 @@
 }
 
 .form-textarea {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    color: #0c0c0c;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #0c0c0c;
 
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
@@ -111,12 +100,6 @@
 /* MEDIA*/
 
 @media screen and (min-width: 768px) {
-
-  
-.contact-us-container {
-  padding: 40px 32px 80px;
-}
-
   .contact-us-title {
     font-size: 48px;
     line-height: 0.92;
@@ -172,12 +155,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-
-
-  .contact-us-container {
-    padding: 50px 65px 100px;
-  }
-
   .form-container {
     max-width: 580px;
     height: 556px;
