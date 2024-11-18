@@ -3,7 +3,7 @@
 }
 
 @media only screen and (min-width: 375px) {
-    .container {
+    .reviews-container {
       min-width: 320px;
       max-width: 375px;
       margin: 0 auto;
@@ -13,19 +13,21 @@
   }
 
 @media only screen and (min-width: 768px) {
-    .container {
+    .reviews-container {
       max-width: 768px;
       padding: 0 32px;
     }
   }
 
 @media only screen and (min-width: 1280px) {
-    .container {
+    .reviews-container {
       max-width: 1280px;
       padding: 0 65px;
     }
   }
   
+
+/* reviews-title */
 
 .reviews-title {
     font-weight: 600;
@@ -43,6 +45,8 @@
     }
 }
 
+/* reviews-list */
+
 @media only screen and (min-width: 320px) {
     .reviews-list {
         display: flex;
@@ -58,7 +62,7 @@
     }
 }
 
-
+/* reviews-list-li */
 
 .reviews-list li{
     display: flex;
@@ -86,6 +90,8 @@
         display: list-item;
     }
 }
+
+/* revies-item */
 
 .reviews-item {
     height: 262px;
@@ -118,6 +124,8 @@
     stroke: #fbfbfb;
 }
 
+
+
 .reviews-name {
     font-weight: 500;
     font-size: 16px;
@@ -135,6 +143,8 @@
     }
     
 }
+
+
 
 .reviews-text {
     font-family: 'Gilroy', sans-serif;
