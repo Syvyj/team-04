@@ -283,7 +283,7 @@
     }
 
     .mob-social {
-        width: 128px;
+        min-width: 128px;
         padding: 0 101px;
         margin-bottom: 50px;
     }
