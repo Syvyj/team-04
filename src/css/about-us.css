@@ -1,0 +1,137 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+  /* padding: 0 20px; */
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Gilroy', sans-serif;
+  padding: 60px 0;
+}
+.about-us-content {
+  background-color: #f3f3f3;
+  border-radius: 30px;
+  padding: 40px 20px;
+  margin-bottom: 20px;
+}
+.about-us-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  padding-bottom: 40px;
+}
+.about-us-text {
+  font-size: 14px;
+}
+.about-description p:first-of-type {
+  padding-bottom: 20px;
+}
+.about-description p:last-of-type {
+  padding-bottom: 40px;
+}
+.about-us-text {
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+.btn-catalog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background-color: #3350e9;
+  border: 0;
+}
+.btn-catalog a {
+  display: block;
+  width: 100%;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: #fbfbfb;
+}
+.btn-catalog:hover,
+.btn-catalog:focus {
+  background-color: #1f3cd4;
+}
+
+.about-us-img {
+  border-radius: 30px;
+}
+
+/* Tablet devices */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .about-us {
+    padding: 80px 0;
+  }
+  .about-us-content {
+    border-radius: 50px;
+    max-width: 704px;
+    /* height: ; */
+    padding: 80px 60px;
+    margin-bottom: 40px;
+  }
+  .about-us-title {
+    font-size: 48px;
+    padding-bottom: 40px;
+  }
+  .about-us-text {
+    font-size: 16px;
+  }
+  .about-description p:last-of-type {
+    padding-bottom: 60px;
+  }
+
+  .about-us-img {
+    border-radius: 50px;
+  }
+}
+
+/* Desktop devices */
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 100px 65px;
+  }
+  .about-us-content {
+    width: 580px;
+    height: 532px;
+    margin-bottom: 0px;
+  }
+  .about-us-photo {
+    margin-bottom: none;
+    height: 100%;
+  }
+  .about-us-img {
+    width: 100%;
+    max-height: 532px;
+  }
+}
