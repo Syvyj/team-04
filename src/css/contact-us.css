@@ -4,18 +4,18 @@
   box-sizing: border-box;
 }
 
-.container {
-    padding: 30px 20px;
-    margin: 0 auto;
-  }
-
+.container-contact {
+  padding: 30px 20px;
+  margin: 0 auto;
+}
 
 .contact-us-title {
   margin-bottom: 24px;
+  font-size: 32px;
 }
 
 .form-container {
- max-width: 335px;
+  max-width: 335px;
   height: 512px;
   border-radius: 30px;
   padding: 48px 28px;
@@ -55,10 +55,10 @@
 }
 
 .form-textarea {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    color: #0c0c0c;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #0c0c0c;
 
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
@@ -111,11 +111,9 @@
 /* MEDIA*/
 
 @media screen and (min-width: 768px) {
-
-
-    .container {
-        padding: 40px 32px;
-      }
+  .container-contact {
+    padding: 40px 32px;
+  }
 
   .contact-us-title {
     font-size: 48px;
@@ -172,11 +170,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-
-
-    .container {
-        padding: 50px 65px;
-      }
+  .container-contact {
+    padding: 100px 65px;
+  }
 
   .form-container {
     max-width: 580px;
