@@ -1,6 +1,6 @@
 .sale-container {
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   justify-content: flex-start;
   flex-direction: column;
   gap: 24px;
@@ -29,7 +29,7 @@
 .sale-content-picture {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
+  max-width: 335px;
   height: 385px;
   background: #f3f3f3;
   display: flex;
@@ -46,7 +46,7 @@
 
 .sale-text-block {
   border-radius: 30px;
-  width: 335px;
+  max-width: 335px;
   height: 561px;
   background: #3350e9;
   padding: 48px 28px;
@@ -165,7 +165,8 @@
   }
 
   .sale-content-picture {
-    width: 552px;
+    width: 100%;
+    max-width: 768px;
     height: 558px;
     border-radius: 50px;
   }

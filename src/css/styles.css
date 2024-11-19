@@ -6,6 +6,7 @@
 */
 
 /* Common styles */
+@import url('../fonts/fonts.css');
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
