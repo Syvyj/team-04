@@ -13,7 +13,7 @@
     />
     <title>Watchcharm</title>
     <script type="module" crossorigin src="/team-04/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/team-04/assets/index-15zdBzPB.css">
+    <link rel="stylesheet" crossorigin href="/team-04/assets/index-DH_G1elL.css">
   </head>
   <body>
     <header class="header" id="header">
@@ -638,23 +638,29 @@
         </p>
         <form class="contact-us-form">
           <div class="input-box">
+            <label for="user-name" class="form-visually-hidden">Name</label>
             <input
               type="text"
+              id="user-name"
               name="user-name"
               class="form-input"
               placeholder="Name"
             />
 
+            <label for="user-email" class="form-visually-hidden">Email</label>
             <input
               type="email"
+              id="user-email"
               name="user-email"
               class="form-input"
               placeholder="Email"
               pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
             />
 
+            <label for="user-tel" class="form-visually-hidden">Phone</label>
             <input
               type="tel"
+              id="user-tel"
               name="user-tel"
               class="form-input"
               required
@@ -662,7 +668,11 @@
               pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
             />
 
+            <label for="user-comment" class="form-visually-hidden"
+              >Comment</label
+            >
             <textarea
+              id="user-comment"
               name="user-comment"
               class="form-textarea"
               placeholder="Comment"
