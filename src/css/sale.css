@@ -4,6 +4,7 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 24px;
+  padding: 0 20px;
 }
 
 .sale-title {
@@ -149,6 +150,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .sale-container {
+    padding: 80px 32px;
+  }
   .sale-title {
     font-size: 48px;
     line-height: 0.92;
