@@ -147,7 +147,7 @@
       rgba(12, 12, 12, 0.92),
       rgba(12, 12, 12, 0.92)
     ),
-    url(../img/mob/mobmenu1x.jpg);
+    url(/img/mob/mobmenu1x.webp);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -163,7 +163,7 @@
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
       ),
-      url(../img/mob/mabmenu2x.jpg);
+      url(/img/mob/mabmenu2x.webp);
   }
 }
 
@@ -288,7 +288,7 @@
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
       ),
-      url(../img/tab/tabmenu1x.jpg);
+      url(/img/tab/tabmenu1x.webp);
   }
 
   .mobile-menu-close {
@@ -320,7 +320,7 @@
           rgba(12, 12, 12, 0.92),
           rgba(12, 12, 12, 0.92)
         ),
-        url(../img/tab/tabmenu2x.jpg);
+        url(/img/tab/tabmenu2x.webp);
     }
   }
 }
