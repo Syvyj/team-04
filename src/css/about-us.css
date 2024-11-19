@@ -132,7 +132,7 @@
     margin-bottom: 0px;
   }
   .about-us-photo {
-    margin-bottom: none;
+    /* margin-bottom: none; */
     height: 100%;
   }
   .about-us-img {
