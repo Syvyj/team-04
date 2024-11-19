@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+    .reviews {
+        padding: 60px 0;
+    }
+
+    .reviews-list {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .reviews-title {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: -0.02em;
+        color: #0c0c0c;
+        margin-bottom: 24px;
+    }
+
+    .reviews-list li{
+        display: flex;
+        gap: 16px;
+        display: none;
+    }
+
+    .reviews-list li:nth-child(1) {
+        display: list-item;
+    }
+
+    .reviews-item {
+        height: 262px;
+        max-width: 335px;
+        padding: 32px 36px;
+        background-color: #f3f3f3;
+        border-radius: 30px;
+    }
+
+    .reviews-img {
+        margin: 0 auto 24px auto;
+        border-radius: 100%;
+        stroke-width: 2px;
+        stroke: #fbfbfb;
+    }
+
+    .reviews-name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #0c0c0c;
+        margin-bottom: 8px;
+    }
+
+    .reviews-text {
+        font-family: 'Gilroy', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: rgba(12, 12, 12, 0.4);
+        
+    }
+
+@media only screen and (min-width: 768px) {
+    .reviews {
+        padding: 80px 0;
+    }
+
+    .reviews-container {
+      max-width: 768px;
+      padding: 0 32px;
+    }
+
+    .reviews-title {
+        font-size: 48px;
+        line-height: 92%;
+        margin-bottom: 40px;
+    }
+
+    .reviews-list li:nth-child(1),
+    .reviews-list li:nth-child(2) {
+        display: list-item;
+    }
+
+    .reviews-item {
+        height: 272px;
+        max-width: 344px;
+    }
+
+    .reviews-name {
+        font-size: 18px;
+        line-height: 110%;
+    }
+
+    .reviews-text {
+        font-size: 16px;
+        line-height: 125%;
+    }
+  }
+
+@media only screen and (min-width: 1280px) {
+    .reviews {
+        padding: 0 ;
+    }
+
+    .reviews-container {
+      max-width: 1280px;
+      padding: 0 65px;
+    }
+
+    .reviews-list {
+        display: flex;
+        gap: 20px;
+    }
+
+    .reviews-list li{
+        display: list-item;
+    }
+
+    .reviews-item {
+        height: 272px;
+        max-width: 370px;
+    }
+  }
