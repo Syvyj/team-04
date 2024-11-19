@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -22,6 +23,7 @@ img {
   color: #0c0c0c;
   margin-bottom: 24px;
 }
+
 .catalog-div-center {
   display: flex;
   align-items: center;
@@ -44,7 +46,9 @@ img {
   border-radius: 30px;
   background-color: #f3f3f3;
   padding: 24px 28px;
+  min-height: 200px;
 }
+
 .catalog-item:nth-child(5),
 .catalog-item:last-child {
   display: none;
@@ -117,13 +121,12 @@ img {
     font-size: 48px;
     line-height: 0.92;
     color: #0c0c0c;
-
     margin-bottom: 40px;
   }
+
   .catalog-item-head {
     font-size: 20px;
     line-height: 1;
-
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -147,6 +150,7 @@ img {
     padding: 24px 32px;
     width: calc((100% - 16px) / 2);
   }
+
   .catalog-button {
     display: none;
   }
