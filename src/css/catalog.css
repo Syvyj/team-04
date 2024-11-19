@@ -9,7 +9,7 @@ img {
 
 .catalog-container {
   min-width: 280px;
-  padding: 0 20px;
+  padding: 60px 20px 0;
 }
 
 .catalog-head {
@@ -110,7 +110,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .catalog-container {
-    padding: 0 32px;
+    padding: 80px 32px 0;
   }
 
   .catalog-head {
@@ -154,7 +154,7 @@ img {
 
 @media screen and (min-width: 1280px) {
   .catalog-container {
-    padding: 0 65px;
+    padding: 100px 65px 0;
   }
 
   .catalog-list {
