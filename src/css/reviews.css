@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-/* @media only screen and (max-width: 375px) { */
     .reviews {
         padding: 60px 0;
     }
@@ -67,7 +66,6 @@
         color: rgba(12, 12, 12, 0.4);
         
     }
-  /* } */
 
 @media only screen and (min-width: 768px) {
     .reviews {
@@ -130,129 +128,3 @@
         max-width: 370px;
     }
   }
-  
-
-/* reviews-title */
-
-
-/* @media only screen and (min-width: 768px){
-    .reviews-title {
-        font-size: 48px;
-        line-height: 92%;
-    }
-} */
-
-/* reviews-list */
-
-/* @media only screen and (min-width: 320px) {
-    .reviews-list {
-        display: flex;
-        gap: 16px;
-        justify-content: center;
-    }
-} */
-
-
-/* @media only screen and (min-width: 1280px) {
-    .reviews-list {
-        gap: 20px;
-    }
-} */
-
-/* reviews-list-li */
-
-
-
-/* @media only screen and (min-width: 320px) {
-    .reviews-list li:nth-child(1) {
-        display: list-item;
-    }
-} */
-
-/* @media only screen and (min-width: 768px){
-
-    .reviews-list li:nth-child(1),
-    .reviews-list li:nth-child(2) {
-        display: list-item;
-    }
-} */
-
-/* @media only screen and (min-width: 1280px) {
-    .reviews-list li{
-        display: list-item;
-    }
-} */
-
-/* revies-item */
-
-/* .reviews-item {
-    height: 262px;
-    max-width: 335px;
-    padding: 32px 36px;
-    background-color: #f3f3f3;
-    border-radius: 30px;
-} */
-
-/* @media only screen and (min-width: 768px){
-    .reviews-item {
-        height: 272px;
-        max-width: 344px;
-    }
-    
-}
-
-@media only screen and (min-width: 1280px) {
-    .reviews-item {
-        height: 272px;
-        max-width: 370px;
-    }
-} */
-
-
-/* .reviews-img {
-    margin: 0 auto 24px auto;
-    border-radius: 100%;
-    stroke-width: 2px;
-    stroke: #fbfbfb;
-} */
-
-
-
-/* .reviews-name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 125%;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: #0c0c0c;
-    margin-bottom: 8px;
-} */
-
-/* @media only screen and (min-width: 768px){
-    .reviews-name {
-        font-size: 18px;
-        line-height: 110%;
-    }
-    
-} */
-
-
-
-/* .reviews-text {
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 129%;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: rgba(12, 12, 12, 0.4);
-    
-} */
-
-/* @media only screen and (min-width: 768px){
-    .reviews-text {
-        font-size: 16px;
-        line-height: 125%;
-    }
-    
-} */
