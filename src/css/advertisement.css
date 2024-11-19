@@ -8,7 +8,7 @@
       rgba(12, 12, 12, 0.8),
       rgba(12, 12, 12, 0.8)
     ),
-    url(../img/mob/advert.jpg);
+    url(/img/mob/advert.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
