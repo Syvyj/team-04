@@ -1,7 +1,7 @@
 /* Mobile devices */
 @media only screen and (max-width: 375px) {
   .container {
-    min-width: 320px;
+    min-width: 280px;
     max-width: 375px;
     margin: 0 auto;
   }

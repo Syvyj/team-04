@@ -9,7 +9,7 @@ img {
 }
 
 .catalog-container {
-  min-width: 280px;
+  max-width: 280px;
   padding: 60px 20px 0;
 }
 
