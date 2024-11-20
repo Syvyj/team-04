@@ -96,6 +96,16 @@
     gap: 40px;
   }
 
+  .menu-navigation {
+    color: #0c0c0c;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .menu-navigation:hover,
+  .menu-navigation:focus {
+    color: #3350e9;
+  }
+
   .menu-navigation.current::after {
     content: '';
     position: absolute;
