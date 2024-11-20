@@ -114,3 +114,7 @@ main:has(.back-link) {
   background: #fbfbfb;
   color: #0c0c0c;
 }
+
+html {
+  scroll-behavior: smooth;
+}
