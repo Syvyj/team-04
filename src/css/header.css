@@ -1,5 +1,6 @@
 .header {
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+  padding: 20px;
 }
 
 .header-div {
@@ -7,7 +8,8 @@
   justify-content: space-between;
   align-items: center;
   min-width: 280px;
-  padding: 20px;
+  max-width: 335px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -57,6 +59,9 @@
   .header {
     padding: 32px 26px;
   }
+  .header-div {
+    max-width: 704px;
+  }
 
   .logo {
     width: 112px;
@@ -74,13 +79,11 @@
   .burger-btn {
     display: none;
   }
-
-  .header {
-    padding: 26px 0;
-  }
-
   .header-div {
-    padding: 0 64.5px;
+    max-width: 1150px;
+  }
+  .header {
+    padding: 26px 64.5px;
   }
 
   .header-nav {

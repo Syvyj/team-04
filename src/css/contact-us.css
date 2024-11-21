@@ -3,9 +3,13 @@
 *::after {
   box-sizing: border-box;
 }
-
-.container-contact {
+.contact-us {
   padding: 60px 20px 0;
+}
+.container-contact {
+  min-width: 280px;
+  max-width: 335px;
+  margin: 0 auto;
   margin: 0 auto;
 }
 
@@ -55,8 +59,8 @@
 
 .form-input:focus,
 .form-textarea:focus {
-  border-color: #0c0c0c; /* Зміна кольору рамки на чорний */
-  outline: none; /* Відсутність стандартного підсвічування */
+  border-color: #0c0c0c;
+  outline: none;
 }
 
 .form-input:hover,
@@ -117,8 +121,11 @@
 /* MEDIA*/
 
 @media screen and (min-width: 768px) {
-  .container-contact {
+  .contact-us {
     padding: 80px 32px 0;
+  }
+  .container-contact {
+    max-width: 704px;
   }
 
   .contact-us-title {
@@ -173,8 +180,11 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container-contact {
+  .contact-us {
     padding: 100px 65px 0;
+  }
+  .container-contact {
+    max-width: 1150px;
   }
 
   .form-container {

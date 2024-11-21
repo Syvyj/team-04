@@ -14,6 +14,7 @@ ul {
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
   max-width: 335px;
+  min-width: 280px;
   height: 581px;
   background: #0c0c0c;
 }
@@ -27,8 +28,7 @@ ul {
   margin-top: 0;
   margin-bottom: 20px;
 }
-
-.footer-block {
+.footer {
   padding: 60px 20px 20px;
 }
 
@@ -176,9 +176,10 @@ ul {
 }
 
 @media (min-width: 768px) {
-  .footer-block {
+  .footer {
     padding: 80px 32px 32px;
   }
+
   .container-footer {
     padding: 40px 40px 28px 40px;
     max-width: 704px;
@@ -268,7 +269,7 @@ ul {
 }
 
 @media (min-width: 1280px) {
-  .footer-block {
+  .footer {
     padding: 100px 32px 32px;
   }
 

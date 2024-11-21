@@ -4,20 +4,17 @@
   box-sizing: border-box;
 }
 
-.container {
-  min-width: 320px;
-  max-width: 375px;
-  margin: 0 auto;
-}
-
-.content {
+.about-us {
   padding: 60px 20px 0;
 }
 
-.about-us {
+.content {
   display: flex;
   flex-direction: column;
   font-family: 'Gilroy', sans-serif;
+  min-width: 280px;
+  max-width: 335px;
+  margin: 0 auto;
 }
 
 .about-us-content {
@@ -93,12 +90,13 @@
 
 /* Tablet devices */
 @media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-  .content {
+  .about-us {
     padding: 80px 32px 0;
   }
+  .content {
+    max-width: 704px;
+  }
+
   .about-us-content {
     border-radius: 50px;
     max-width: 704px;
@@ -123,15 +121,16 @@
 
 /* Desktop devices */
 @media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
+  .about-us {
+    padding: 100px 65px 0;
   }
   .content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    padding: 100px 65px 0;
+    max-width: 1150px;
+    flex-direction: row;
   }
   .about-us-content {
     width: 580px;

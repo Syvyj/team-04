@@ -7,10 +7,13 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.catalog {
+  padding: 60px 20px 0;
+}
 .catalog-container {
   min-width: 280px;
-  padding: 60px 20px 0;
+  max-width: 335px;
+  margin: 0 auto;
 }
 
 .catalog-head {
@@ -113,8 +116,12 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .catalog-container {
+  .catalog {
     padding: 80px 32px 0;
+  }
+
+  .catalog-container {
+    max-width: 704px;
   }
 
   .catalog-head {
@@ -157,8 +164,12 @@ img {
 }
 
 @media screen and (min-width: 1280px) {
-  .catalog-container {
+  .catalog {
     padding: 100px 65px 0;
+  }
+
+  .catalog-container {
+    max-width: 1150px;
   }
 
   .catalog-list {

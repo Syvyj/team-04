@@ -4,12 +4,13 @@
 *::after {
   box-sizing: border-box;
 }
-
-.hero-content {
-  min-width: 320px;
-  max-width: 375px;
-  margin: 0 auto;
+.hero {
   padding: 60px 20px 0;
+}
+.hero-content {
+  min-width: 280px;
+  max-width: 335px;
+  margin: 0 auto;
 }
 .hero-container-content {
   max-width: 100%;
@@ -98,9 +99,11 @@
 
 /*tablet*/
 @media screen and (min-width: 768px) {
-  .hero-content {
-    max-width: 768px;
+  .hero {
     padding: 80px 32px 0;
+  }
+  .hero-content {
+    max-width: 704px;
   }
   .hero-container-content {
     display: flex;
@@ -140,9 +143,11 @@
 
 /*pc*/
 @media screen and (min-width: 1280px) {
-  .hero-content {
-    max-width: 1280px;
+  .hero {
     padding: 80px 65px 0;
+  }
+  .hero-content {
+    max-width: 1150px;
   }
   .hero-container-content {
     justify-content: space-between;

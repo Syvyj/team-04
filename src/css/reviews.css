@@ -1,9 +1,13 @@
 * {
   box-sizing: border-box;
 }
-
-.reviews-container {
+.reviews {
   padding: 60px 20px 0;
+}
+.reviews-container {
+  min-width: 280px;
+  max-width: 335px;
+  margin: 0 auto;
 }
 
 .reviews-list {
@@ -67,9 +71,11 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .reviews-container {
-    max-width: 768px;
+  .reviews {
     padding: 80px 32px 0;
+  }
+  .reviews-container {
+    max-width: 704px;
   }
 
   .reviews-title {
@@ -100,9 +106,11 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .reviews-container {
-    max-width: 1280px;
+  .reviews {
     padding: 100px 65px 0;
+  }
+  .reviews-container {
+    max-width: 1150px;
   }
 
   .reviews-list {

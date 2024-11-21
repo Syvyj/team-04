@@ -1,9 +1,14 @@
+.sale {
+  padding: 60px 20px 0;
+}
 .sale-container {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   gap: 24px;
-  padding: 60px 20px 0;
+  min-width: 280px;
+  max-width: 335px;
+  margin: 0 auto;
 }
 
 .sale-title {
@@ -149,8 +154,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  .sale-container {
+  .sale {
     padding: 80px 32px 0;
+  }
+  .sale-container {
+    max-width: 704px;
   }
   .sale-title {
     font-size: 48px;
@@ -227,8 +235,11 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .sale-container {
+  .sale {
     padding: 100px 65px 0;
+  }
+  .sale-container {
+    max-width: 1150px;
   }
   .sale-content-picture {
     width: 428px;
